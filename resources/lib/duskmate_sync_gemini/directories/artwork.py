@@ -2,7 +2,7 @@ from xbmcaddon import Addon
 from xbmcvfs import translatePath
 
 
-ADDONPATH = translatePath(Addon('script.module.tmdbhelper.sync.gemini').getAddonInfo('path'))
+ADDONPATH = translatePath(Addon('script.module.duskmate.sync.gemini').getAddonInfo('path'))
 
 
 def get_icon(name='gemini'):

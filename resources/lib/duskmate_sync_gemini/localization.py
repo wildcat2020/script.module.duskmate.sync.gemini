@@ -2,7 +2,7 @@ from xbmcaddon import Addon
 from tmdbhelper.lib.addon.plugin import get_localized as get_core_localized
 
 
-ADDON = Addon('script.module.tmdbhelper.sync.gemini')
+ADDON = Addon('script.module.duskmate.sync.gemini')
 LOCALIZED_IDS = frozenset((32149, 32150, 32151))
 
 

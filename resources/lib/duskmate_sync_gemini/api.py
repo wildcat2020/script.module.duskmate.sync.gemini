@@ -1,7 +1,7 @@
 from json import loads
 from tmdbhelper.lib.addon.logger import kodi_log
 from tmdbhelper.lib.api.request import RequestAPI
-from tmdbhelper_sync_gemini.settings import GeminiSettings
+from duskmate_sync_gemini.settings import GeminiSettings
 import re
 
 

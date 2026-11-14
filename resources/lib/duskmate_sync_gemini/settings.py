@@ -2,7 +2,7 @@ from xbmcaddon import Addon
 
 
 class GeminiSettings:
-    addon_id = 'script.module.tmdbhelper.sync.gemini'
+    addon_id = 'script.module.duskmate.sync.gemini'
 
     def __init__(self):
         self.addon = Addon(self.addon_id)
@@ -12,7 +12,7 @@ class GeminiSettings:
         return self.addon.getSetting('apikey')
 
     def migrate_settings(self):
-        legacy_addon = Addon('plugin.video.themoviedb.helper')
+        legacy_addon = Addon('plugin.video.duskmate')
         legacy_key = legacy_addon.getSetting('gemini_apikey')
         if not legacy_key:
             return

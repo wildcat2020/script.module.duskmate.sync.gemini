@@ -1,8 +1,8 @@
 from jurialmunkey.ftools import cached_property
 from tmdbhelper.lib.sync.providers.base import SyncProvider
-from tmdbhelper_sync_gemini.directories.item import GeminiDirectoryItem
-from tmdbhelper_sync_gemini.directories.routes import LIST_ROUTES
-from tmdbhelper_sync_gemini.settings import GeminiSettings
+from duskmate_sync_gemini.directories.item import GeminiDirectoryItem
+from duskmate_sync_gemini.directories.routes import LIST_ROUTES
+from duskmate_sync_gemini.settings import GeminiSettings
 
 
 class Provider(SyncProvider):
@@ -17,7 +17,7 @@ class Provider(SyncProvider):
         return self.get_api()
 
     def get_api(self):
-        from tmdbhelper_sync_gemini.api import Gemini
+        from duskmate_sync_gemini.api import Gemini
         return Gemini()
 
     def migrate_settings(self):

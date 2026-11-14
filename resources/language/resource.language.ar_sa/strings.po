@@ -1,6 +1,6 @@
 # XBMC Media Center language file
 # Addon Name: TMDbHelper Gemini
-# Addon id: script.module.tmdbhelper.sync.gemini
+# Addon id: script.module.duskmate.sync.gemini
 # Addon Provider: jurialmunkey
 msgid ""
 msgstr ""

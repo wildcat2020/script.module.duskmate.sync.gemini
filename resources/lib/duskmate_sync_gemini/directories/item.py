@@ -1,8 +1,8 @@
 from jurialmunkey.ftools import cached_property
 from tmdbhelper.lib.items.directories.base.basedir_item import BaseDirItem
-from tmdbhelper_sync_gemini.directories.artwork import ADDONPATH, get_icon
-from tmdbhelper_sync_gemini.localization import get_localized
-from tmdbhelper_sync_gemini.settings import GeminiSettings
+from duskmate_sync_gemini.directories.artwork import ADDONPATH, get_icon
+from duskmate_sync_gemini.localization import get_localized
+from duskmate_sync_gemini.settings import GeminiSettings
 
 
 class GeminiDirectoryItem(BaseDirItem):
